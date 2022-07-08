@@ -1,0 +1,24 @@
+.body{
+    display: flex;
+}
+.header {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: burlywood;
+    color: white;
+}
+.container{
+    max-width: 1230px;
+}
+.sidebar{
+    background-color: #0a53be;
+    height: 100px;
+
+}
+.images{
+    background-color: #0f5132;
+    height: 100px;
+}
