@@ -1,5 +1,12 @@
+@font-face {
+    font-family: yekan;
+    src: url(../fonts/Yekan.woff);
+}
+
+
 .body{
     display: flex;
+    font-family: yekan;
 }
 .header {
     text-align: center;
@@ -14,11 +21,77 @@
     max-width: 1230px;
 }
 .sidebar{
-    background-color: #0a53be;
-    height: 100px;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
 
 }
 .images{
     background-color: #0f5132;
     height: 100px;
+}
+/*------------shopping-cart------------*/
+.btn-cart-shopping{
+    font-size: 20px;
+    padding: 5px 20px;
+    text-align: center;
+    display: block;
+    margin: 15px auto;
+    width: 70%;
+}
+.btn-cart-shopping i{
+    padding:0px 4px;
+}
+span.count-cart-shopping {
+    font-size: 11px;
+    padding: 1px 6px;
+    background-color: #ffffff;
+    color: #0d6efd;
+    margin-left: 5px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+/*-------------login form---------------*/
+.login-form{
+    display: block;
+    margin-top: 15px;
+}
+.login-email {
+    display: block;
+    margin: 16px auto;
+    width: 70%;
+    font-size: 14px;
+    color: #7e7e7e;
+}
+.login-password {
+    display: block;
+    margin: 16px auto;
+    width: 70%;
+    font-size: 14px;
+    color: #7e7e7e;
+}
+
+.confirm-button {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+
+/*-----------forgot----------*/
+.forgot {
+    margin: auto;
+    width: 70%;
+    height: 30px;
+}
+.forgot-join {
+    float: right;
+    text-decoration: none;
+}
+.forgot-pass {
+    float: left;
+    text-decoration: none;
+}
+
+/*------------category--------*/
+.category{
+    margin-top: 15px;
 }
