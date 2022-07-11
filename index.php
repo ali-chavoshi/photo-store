@@ -72,7 +72,43 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-8 col-sm12 images"></div>
+
+        <!------------------------images-------------------------->
+        <div class="col-md-8 col-sm12 images">
+            <ul class="imageUl">
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+            </ul>
+
+        </div>
     </div>
 </div>
 

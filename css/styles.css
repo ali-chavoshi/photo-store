@@ -2,7 +2,10 @@
     font-family: yekan;
     src: url(../fonts/Yekan.woff);
 }
-
+body{
+    font-family: yekan;
+    background-color: #f9f6f6;
+}
 
 .body{
     display: flex;
@@ -14,20 +17,30 @@
     font-weight: bold;
     margin-top: 20px;
     padding: 15px;
-    background-color: burlywood;
+    background-color: #0d6efd;
     color: white;
 }
-.container{
+
+.container {
     max-width: 1230px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 10px 0px #c7c4c4;
+    padding: 0px;
 }
-.sidebar{
+
+.sidebar {
     background-color: rgb(255, 255, 255);
     height: fit-content;
+    border-right: solid 1px #dfdfdf;
+}
+
+.sidebar ::-webkit-scrollbar{
 
 }
+
+
 .images{
-    background-color: #0f5132;
-    height: 100px;
+ background-color: white;
 }
 /*------------shopping-cart------------*/
 .btn-cart-shopping{
@@ -93,5 +106,19 @@ span.count-cart-shopping {
 
 /*------------category--------*/
 .category{
-    margin-top: 15px;
+    margin: 15px auto;
+    overflow: auto;
+    max-height: 200px;
+    width: 90%;
+}
+
+/*------------image list------*/
+.imageLi{
+    display: inline-block;
+    padding: 5px;
+    margin-top: 20px;
+}
+.imageUl{
+    padding-left: 0px;
+    text-align: center;
 }
