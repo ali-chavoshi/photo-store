@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
     <title>image store project</title>
     <script>var baseUrl = "http://localhost/photo-store/"; </script>
 </head>
@@ -17,7 +18,7 @@
 <div class="container">
     <div class="header">Welcome To Our Image Store</div>
     <div class="body">
-        <div class="col-md-4 col-sm12 sidebar">
+        <div class="col-md-4 col-sm-12 sidebar">
 
             <!---------------------Shopping Cart-------------------->
             <a class="btn btn-primary btn-cart-shopping">
@@ -74,7 +75,7 @@
         </div>
 
         <!------------------------images-------------------------->
-        <div class="col-md-8 col-sm12 images">
+        <div class="col-md-8 col-sm-12 images">
             <ul class="imageUl">
                 <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
                         <img src="images/demo-image.jpg" alt="" width="150" height="121">
@@ -113,5 +114,22 @@
 </div>
 
 <script src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/fancybox.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".fancybox").fancybox({
+            afterLoad:function (){
+                var tArr =this.title.split('|');
+                this.title = '<a class="addBtn btn1" href="'+baseUrl+'?add2cart="'+tArr+[0]+'"></a>'+'<span class="btn1">'+tArr+'</span>';
+
+            },
+            headers : {
+                title : {
+                    type:'inside'
+                }
+            }
+        })
+    })
+</script>
 </body>
 </html>

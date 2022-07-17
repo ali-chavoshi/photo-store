@@ -115,10 +115,45 @@ span.count-cart-shopping {
 /*------------image list------*/
 .imageLi{
     display: inline-block;
-    padding: 5px;
-    margin-top: 20px;
+    padding: 7px;
+    margin: 8px;
+    box-shadow: 0px 0px 10px 0px #403f3f33;
+    border-radius: 8px;
 }
 .imageUl{
     padding-left: 0px;
     text-align: center;
+    margin-top: 10px;
 }
+/*-------------auth-----------*/
+.auth {
+    background-color: white;
+}
+.login-auth {
+    text-align: end;
+    padding: 27px;
+    overflow: auto;
+    max-height: 530px;
+}
+.login-form-auth {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.forgot-form-auth {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.join-form-auth {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.auth-h2 {
+    font-size: 20px;
+    color: #706e6e;
+    font-weight: bold;
+    margin-top: 20px
+}
+
