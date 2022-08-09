@@ -3,35 +3,37 @@
     src: url(../fonts/Yekan.woff);
 }
 body{
-    font-family: yekan;
-    background-color: #f9f6f6;
+    font-family:  sans-serif;
 }
 
 .body{
     display: flex;
-    font-family: yekan;
-}
-.header {
-    text-align: center;
-    font-size: 27px;
-    font-weight: bold;
-    margin-top: 20px;
-    padding: 15px;
-    background-color: #0d6efd;
-    color: white;
+    font-family:sans-serif;
 }
 
 .container {
-    max-width: 1230px;
-    border-radius: 16px;
-    box-shadow: 0px 0px 10px 0px #c7c4c4;
+    max-width: 1100px;
     padding: 0px;
 }
+.header{
+    background-image: url("../images/header-background.jpg");
+    padding: 60px 200px;
+}
+.title-site{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 
 .sidebar {
-    background-color: rgb(255, 255, 255);
     height: fit-content;
-    border-right: solid 1px #dfdfdf;
+    background-color: #4e4e4e3b;
+    border-radius: 14px;
+    margin-top: 15px;
 }
 
 .sidebar ::-webkit-scrollbar{
@@ -40,7 +42,8 @@ body{
 
 
 .images{
- background-color: white;
+    margin-top: 15px;
+
 }
 /*------------shopping-cart------------*/
 .btn-cart-shopping{
@@ -110,13 +113,15 @@ span.count-cart-shopping {
     overflow: auto;
     max-height: 200px;
     width: 90%;
+    font-family: yekan;
 }
 
 /*------------image list------*/
+
 .imageLi{
     display: inline-block;
     padding: 7px;
-    margin: 8px;
+    margin: 3px;
     box-shadow: 0px 0px 10px 0px #403f3f33;
     border-radius: 8px;
 }

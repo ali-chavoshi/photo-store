@@ -9,22 +9,73 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/fancybox.min.css">
     <title>image store project</title>
     <script>var baseUrl = "http://localhost/photo-store/"; </script>
 </head>
 <body>
 
 <div class="container">
-    <div class="header">Welcome To Our Image Store</div>
-    <div class="body">
-        <div class="col-md-4 col-sm-12 sidebar">
+    <!--------------------------------top header------------------------------------>
+    <div class="topHeader">
+        <a class="btn btn-primary btn-cart-shopping">
+            <i class="bi bi-cart3"></i>cart
+            <span class="count-cart-shopping">1</span>
+        </a>
+    </div>
+    <a class="btn btn-primary btn-cart-shopping">control panel</a>
+    <!---------------------------------Header--------------------------------------->
+    <div class="header">
+        <h1 class="title-site">A World of  Images Art at Your Fingertips!</h1>
 
-            <!---------------------Shopping Cart-------------------->
-            <a class="btn btn-primary btn-cart-shopping">
-                <i class="bi bi-cart3"></i>cart
-                <span class="count-cart-shopping">1</span>
-            </a>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search your keywords" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="body">
+
+        <!------------------------images-------------------------->
+        <div class="col-md-8 col-sm-12 images">
+
+            <ul class="imageUl">
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
+                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
+                    </a></li>
+            </ul>
+
+        </div>
+        <!---------------------------side bar ---------------------------------->
+        <div class="col-md-4 col-sm-12 sidebar">
 
             <!----------------------MemberShip Form----------------->
             <div class="login">
@@ -72,43 +123,6 @@
                     </li>
                 </ul>
             </div>
-        </div>
-
-        <!------------------------images-------------------------->
-        <div class="col-md-8 col-sm-12 images">
-            <ul class="imageUl">
-                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
-                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
-                    </a></li>
-                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
-                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
-                    </a></li>
-                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
-                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
-                    </a></li>
-                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
-                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
-                    </a></li>
-                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
-                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
-                    </a></li>
-                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
-                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
-                    </a></li>
-                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
-                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
-                    </a></li>
-                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
-                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
-                    </a></li>
-                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
-                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
-                    </a></li>
-                <li class="imageLi"><a href="images/500x500.jpeg" class="fancybox" rel="group" title="عکس اول">
-                        <img src="images/demo-image.jpg" alt="" width="150" height="121">
-                    </a></li>
-            </ul>
-
         </div>
     </div>
 </div>
